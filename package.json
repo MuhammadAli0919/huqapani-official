@@ -1,0 +1,15 @@
+{
+  "name": "huqa-pani-storefront",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npx --yes vercel dev",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "nodemailer": "^10.3.1"
+  }
+}
